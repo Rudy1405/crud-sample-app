@@ -19,6 +19,6 @@ export class PaymentsService {
   }
 
   deletePayment(paymentsArr, index) {
-    paymentsArr.splice(index);
+    paymentsArr.splice(index, 1);
   }
 }
